@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+
+	<bean id="address"
+		class="com.global.EmployeSpringDemo.modal.Address">
+		<property name="city" value="vns" />
+		<property name="state" value="up" />
+		<property name="pin" value="221010" />
+	</bean>
+
+	<bean id="employee"
+		class="com.global.EmployeSpringDemo.modal.Employee">
+		<property name="empId" value="11" />
+		<property name="empName" value="Raj" />
+	</bean>
+
+
+</beans>
